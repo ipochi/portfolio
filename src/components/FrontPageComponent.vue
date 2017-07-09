@@ -57,38 +57,39 @@
         </section>
         <section class="hero-body" v-if="isActive">
           <div class="container">
-            <div class="columns is-mobile">
-              <div class="column is-half is-offset-one-quarter">
-                <nav class="level is-mobile">
+            <div class="columns">
+              <div class="column is-one-quarter">
 
-                  <div class="level-item has-text-centered">
-                    <div>
-                      <p class="heading has-text-light">About</p>
-                      <a v-on:click="swapComponent('aboutme')">
-                          <i class="fa fa-user-circle-o fa-5x has-text-light"></i>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="level-item has-text-centered">
-                    <div>
-                      <p class="heading has-text-light">Work</p>
-                      <a v-on:click="swapComponent('aboutwork')">
-                        <i class="fa fa-briefcase fa-5x has-text-light"></i>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="level-item has-text-centered">
-                    <div>
-                      <p class="heading has-text-light">Contact</p>
-                      <a v-on:click="swapComponent('contactme')">
-                        <span>
-                          <i class="fa fa-commenting-o fa-5x has-text-light"></i>
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-
-                </nav>
+              </div>
+              <div class="column has-text-centered">
+                <p class="heading has-text-light">About</p>
+                <a v-on:click="swapComponent('aboutme')">
+                    <i class="fa fa-user-circle-o fa-5x has-text-light"></i>
+                </a>
+              </div>
+              <div class="column has-text-centered">
+                <p class="heading has-text-light">Work</p>
+                <a v-on:click="swapComponent('aboutwork')">
+                  <i class="fa fa-briefcase fa-5x has-text-light"></i>
+                </a>
+              </div>
+              <div class="column has-text-centered">
+                <p class="heading has-text-light">Contact</p>
+                <a v-on:click="swapComponent('contactme')">
+                  <span>
+                    <i class="fa fa-commenting-o fa-5x has-text-light"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="column has-text-centered">
+                <p class="heading has-text-light">Contact</p>
+                <a v-on:click="swapComponent('contactme')">
+                  <span>
+                    <i class="fa fa-commenting-o fa-5x has-text-light"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="column is-one-quarter">
 
               </div>
             </div>
