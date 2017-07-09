@@ -42,88 +42,64 @@
 
       </div>
 
-      <!--
-      <nav class="level" v-show="isActive">
-        <a class="nav-item" v-on:click="swapComponent('aboutme')">
-          <span class="title">
-            <i class="has-text-light">Imran Pochi</i>
-          </span>
-        </a>
-      </nav>
-
-
-
-    <nav class="level is-mobile" v-show="isActive">
-      <div class="level-item has-text-centered">
-        <div>
-          <p class="heading has-text-light"><centered><strong>Imran Pochi</strong></centered></p>
-          <a v-on:click="swapComponent('aboutme')">
-              <i class="fa fa-user-circle-o fa-5x has-text-danger"></i>
-          </a>
-        </div>
-      </div>
-    </nav>
-
-  -->
-
-
-        <div class="content name-content is-large has-text-centered" v-show="isActive">
-          <h2 class="title">
-            <strong style="color:white">IMRAN POCHI</strong>
-          </h2>
-          <h6 class="subtitle flair-font" style="color:white">
-            Developer . Versatile . Learner
-          </h6>
-        </div>
-
-
-      <!-- Hero content: will be in the middle -->
-      <div class="hero-footer hero-footer-change"  v-if=" isActive">
-        <div class="container has-text-centered is-fluid">
-          <div class="block">
-
-
-            <nav class="level is-mobile">
-
-              <div class="level-item has-text-centered">
-
-              </div>
-
-              <div class="level-item has-text-centered">
-                <div>
-                  <p class="heading has-text-light">About</p>
-                  <a v-on:click="swapComponent('aboutme')">
-                      <i class="fa fa-user-circle-o fa-5x has-text-light"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="level-item has-text-centered">
-                <div>
-                  <p class="heading has-text-light">Work</p>
-                  <a v-on:click="swapComponent('aboutwork')">
-                    <i class="fa fa-briefcase fa-5x has-text-light"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="level-item has-text-centered">
-                <div>
-                  <p class="heading has-text-light">Contact</p>
-                  <a v-on:click="swapComponent('contactme')">
-                    <span>
-                      <i class="fa fa-commenting-o fa-5x has-text-light"></i>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div class="level-item has-text-centered">
-
-              </div>
-            </nav>
-
-
+  <!-- Hero content: will be in the middle -->
+        <section class="hero-body" v-if="isActive">
+          <div class="container has-text-centered">
+            <div class="content is-large has-text-centered" v-show="isActive">
+              <h2 class="title">
+                <strong style="color:white">IMRAN POCHI</strong>
+              </h2>
+              <h6 class="subtitle flair-font" style="color:white">
+                Developer . Versatile . Learner
+              </h6>
+            </div>
           </div>
-        </div>
-      </div>
+        </section>
+        <section class="hero-body" v-if="isActive">
+          <div class="container has-text-centered">
+            <div class="columns is-mobile">
+              <div class="column is-half is-offset-one-quarter">
+                <nav class="level is-mobile">
+
+                  <div class="level-item has-text-centered">
+
+                  </div>
+
+                  <div class="level-item has-text-centered">
+                    <div>
+                      <p class="heading has-text-light">About</p>
+                      <a v-on:click="swapComponent('aboutme')">
+                          <i class="fa fa-user-circle-o fa-5x has-text-light"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <div>
+                      <p class="heading has-text-light">Work</p>
+                      <a v-on:click="swapComponent('aboutwork')">
+                        <i class="fa fa-briefcase fa-5x has-text-light"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <div>
+                      <p class="heading has-text-light">Contact</p>
+                      <a v-on:click="swapComponent('contactme')">
+                        <span>
+                          <i class="fa fa-commenting-o fa-5x has-text-light"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="level-item has-text-centered">
+
+                  </div>
+                </nav>
+
+              </div>
+            </div>
+          </div>
+        </section>
     </section>
 
     <transition appear enter-active-class="animated bounceInUp">
@@ -209,18 +185,6 @@ export default {
   background-size: cover;
   opacity: 0.8;
 
-}
-
-.this-cont {
-  height:10%;
-}
-
-.hero-footer-change {
-  padding-bottom: 10%;
-}
-
-.name-content {
-  padding-top: 15%;
 }
 
 .flair-font {
