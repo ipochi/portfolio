@@ -1,48 +1,59 @@
 <template lang="html">
   <div>
+    
     <section class="hero hero-image" v-bind:class="{'is-fullheight': isActive}">
+
+      <transition enter-active-class="animated bounceInUp">
       <div class="hero-head" v-if=" ! isActive">
 
         <nav class="nav">
 
           <div class="nav-left">
             <a class="nav-item" v-on:click="backToFullScreen">
-              <span class="icon">
-                <i class="fa fa-angle-double-down has-text-dark"></i>
+              <span class="icon is-small">
+                <i class="fa fa-angle-double-down has-text-light"></i>
               </span>
             </a>
           </div>
           <div class="nav-center">
             <a class="nav-item" v-on:click="swapComponent('aboutme')">
-              <span class="subtitle">
+              <div class="content is-small">
                 <i class="has-text-light">About</i>
 
-              </span>
+              </div>
             </a>
             <a class="nav-item" v-on:click="swapComponent('aboutwork')">
-              <span class="subtitle">
+              <div class="content is-small">
                 <i class="has-text-light">Work</i>
-              </span>
+              </div>
+            </a>
+            <a class="nav-item" v-on:click="swapComponent('aboutwork')">
+              <div class="content is-small">
+                <i class="has-text-light">My Story</i>
+              </div>
             </a>
             <a class="nav-item" v-on:click="swapComponent('contactme')">
-              <span class="subtitle">
+              <div class="content is-small">
                 <i class="has-text-light">Contact</i>
-              </span>
+              </div>
             </a>
           </div>
 
           <div class="nav-right">
             <a class="nav-item" v-on:click="backToFullScreen">
-              <span class="icon">
-                <i class="fa fa-angle-double-down has-text-dark"></i>
+              <span class="icon is-small">
+                <i class="fa fa-angle-double-down has-text-light"></i>
               </span>
             </a>
           </div>
         </nav>
 
       </div>
+      </transition>
 
   <!-- Hero content: will be in the middle -->
+  <transition enter-active-class="animated bounceInDown">
+
         <section class="hero-body" v-if="isActive">
           <div class="container has-text-centered">
             <div class="content is-large has-text-centered" v-show="isActive">
@@ -55,6 +66,9 @@
             </div>
           </div>
         </section>
+      </transition>
+      <transition enter-active-class="animated bounceInUp">
+
         <section class="hero-body" v-if="isActive">
           <div class="container">
             <div class="columns">
@@ -74,10 +88,10 @@
                 </a>
               </div>
               <div class="column has-text-centered">
-                <p class="heading has-text-light">Contact</p>
+                <p class="heading has-text-light">My Story</p>
                 <a v-on:click="swapComponent('contactme')">
                   <span>
-                    <i class="fa fa-commenting-o fa-5x has-text-light"></i>
+                    <i class="fa fa-star fa-5x has-text-light"></i>
                   </span>
                 </a>
               </div>
@@ -95,6 +109,7 @@
             </div>
           </div>
         </section>
+      </transition>
     </section>
 
     <transition appear enter-active-class="animated bounceInUp">

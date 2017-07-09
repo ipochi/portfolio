@@ -3,7 +3,7 @@
   <div>
     <section class="section has-text-centered is-paddingless has-padding">
         <figure class="image is-128x128 image-cs">
-          <img class="is-img-circle" src="http://bulma.io/images/placeholders/128x128.png">
+          <img class="is-img-circle" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAx9AAAAJDc0MGE3Njk2LTFhYjEtNDZmMy04MzQ3LTViNGQwZGUxYjk5OA.jpg">
         </figure>
 
       <h2 class="title">
@@ -53,6 +53,14 @@
           <div>
             <a href="https://github.com/ipochi" target="_blank">
                 <i class="fa fa-github fa-3x has-text-dark"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="level-item has-text-centered">
+          <div>
+            <a href="https://www.linkedin.com/in/imranpochi" target="_blank">
+                <i class="fa fa-linkedin-square fa-3x has-text-dark"></i>
             </a>
           </div>
         </div>
