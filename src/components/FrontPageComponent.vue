@@ -56,14 +56,10 @@
           </div>
         </section>
         <section class="hero-body" v-if="isActive">
-          <div class="container has-text-centered">
+          <div class="container">
             <div class="columns is-mobile">
               <div class="column is-half is-offset-one-quarter">
                 <nav class="level is-mobile">
-
-                  <div class="level-item has-text-centered">
-
-                  </div>
 
                   <div class="level-item has-text-centered">
                     <div>
@@ -91,9 +87,7 @@
                       </a>
                     </div>
                   </div>
-                  <div class="level-item has-text-centered">
 
-                  </div>
                 </nav>
 
               </div>
