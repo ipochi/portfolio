@@ -66,10 +66,11 @@
             <div class="card-content">
               <div class="content">
                 Continued love affair with Vue JS and Bulma , I simply had to make myself a portfolio website.<br>
+                Using github and gh-pages to host the website.<br>
 
                 <br>Learnt a great deal about responsive design  , test , test and test more in different browsers , different devices.
                 <br>Learnt to be creative (no kidding , big improvement !!)<br>
-                <br><a>#bulmaCSS</a> <a>#animateCSS</a> <a>#webpack</a> <a>#vueJS</a> <a>#beCreativeAndGetInspiredByOtherPortfolios</a> <a>#responsive</a>
+                <br><a>#bulmaCSS</a> <a>#animateCSS</a> <a>#webpack</a> <a>#vueJS</a> <a>#gitHub</a> <a>#beCreativeAndGetInspiredByOtherPortfolios</a> <a>#responsive</a>
                 <br>
               </div>
             </div>
