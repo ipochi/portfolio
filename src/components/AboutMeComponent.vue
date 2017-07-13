@@ -7,17 +7,16 @@
 
         </div>
         <div class="column is-4">
-          <div class="content has-text-right is-large">
-            <h1><strong>Talented Software developer from Bangalore , India</strong></h1>
+          <div class="content has-text-right">
+            <span class="title"><strong>Hi , I am a talented Software developer from Bangalore , India.</strong></span>
           </div>
         </div>
         <div class="column is-4">
 
-          <div class="content has-text-left has-padding-cs">
-            <p class="has-text-success"><strong> Versatile , Generalist</strong></p>
-            <p><strong> Passionate , Hardworking</strong></p>
-            <p><strong> Learner , Fighter</strong></p>
-            <p><strong> Learner , Fighter</strong></p>
+          <div class="content has-text-left">
+            <p><strong> Versatile , Generalist , Learner , Fighter</strong></p>
+            <p><strong> Passionate , Hardworking , Learner , Fighter</strong></p>
+            <p><strong> Learner , Fighter , Learner , Fighter</strong></p>
           </div>
 
         </div>
@@ -35,7 +34,7 @@
 
     <section class="section">
       <div class="columns">
-        <div class="column">
+        <div class="column is-1">
 
         </div>
         <div class="column  has-text-centered">
@@ -75,7 +74,7 @@
               publishing software like Aldus PageMaker including versions of Lorem.
             </div>
         </div>
-        <div class="column">
+        <div class="column is-1">
 
         </div>
       </div>
@@ -93,8 +92,8 @@
         </div>
 
         <div class="column  has-text-centered">
-          <span class="subtitle">Getting better day by day ... </span>
-          <table class="table">
+          <span class="subtitle">Getting better day by day </span>
+          <table class="table is-striped">
             <tbody>
               <tr>
                 <td>HTML / CSS</td>
@@ -118,8 +117,10 @@
               </tr>
             </tbody>
           </table>
-          <span class="subtitle"> I know my way around ... </span>
-          <table class="table">
+        </div>
+        <div class="column has-text-centered">
+          <span class="subtitle"> I'll find a way </span>
+          <table class="table is-striped">
             <tbody>
               <tr>
                 <td>AWS</td>
@@ -140,9 +141,28 @@
             </tbody>
           </table>
         </div>
-        <div class="column">
-
+        <div class="column has-text-centered">
+          <span class="subtitle"> Things I'm poor at </span>
+          <table class="table is-striped">
+            <tbody>
+              <tr>
+                <td class="has-text-centered">Dancing</td>
+              </tr>
+              <tr>
+                <td class="has-text-centered">Singing</td>
+              </tr>
+              <tr>
+                <td class="has-text-centered">Webpack</td>
+              </tr>
+              <tr>
+                <td class="has-text-centered">SQL / No SQL Databases</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
+        <div class="column">
+        </div>
+
       </div>
     </section>
   </div>
@@ -165,9 +185,6 @@ export default {
 
 <style lang="css">
 
-.has-padding-cs {
-  padding-top: 14px;
-}
 
 .no-margin {
     margin: 0;
