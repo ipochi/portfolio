@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    
+
     <section class="hero hero-image" v-bind:class="{'is-fullheight': isActive}">
 
       <transition enter-active-class="animated bounceInUp">
@@ -25,11 +25,6 @@
             <a class="nav-item" v-on:click="swapComponent('aboutwork')">
               <div class="content is-small">
                 <i class="has-text-light">Work</i>
-              </div>
-            </a>
-            <a class="nav-item" v-on:click="swapComponent('aboutwork')">
-              <div class="content is-small">
-                <i class="has-text-light">My Story</i>
               </div>
             </a>
             <a class="nav-item" v-on:click="swapComponent('contactme')">
@@ -78,21 +73,13 @@
               <div class="column has-text-centered">
                 <p class="heading has-text-light">About</p>
                 <a v-on:click="swapComponent('aboutme')">
-                    <i class="fa fa-user-circle-o fa-5x has-text-light"></i>
+                    <i class="fa fa-user fa-5x has-text-light"></i>
                 </a>
               </div>
               <div class="column has-text-centered">
                 <p class="heading has-text-light">Work</p>
                 <a v-on:click="swapComponent('aboutwork')">
                   <i class="fa fa-briefcase fa-5x has-text-light"></i>
-                </a>
-              </div>
-              <div class="column has-text-centered">
-                <p class="heading has-text-light">My Story</p>
-                <a v-on:click="swapComponent('contactme')">
-                  <span>
-                    <i class="fa fa-star fa-5x has-text-light"></i>
-                  </span>
                 </a>
               </div>
               <div class="column has-text-centered">
@@ -122,8 +109,6 @@
 
 <script>
 
-import MainContent from './MainContent.vue';
-
 import AboutMe from './AboutMeComponent.vue';
 import AboutWork from './AboutWorkComponent.vue';
 import ContactMe from './ContactMeComponent.vue';
@@ -131,7 +116,6 @@ import ContactMe from './ContactMeComponent.vue';
 
 export default {
   components : {
-    maincontent : MainContent,
     aboutme : AboutMe,
     aboutwork : AboutWork,
     contactme : ContactMe
@@ -187,7 +171,7 @@ export default {
     rgba(26, 41, 128, 0.85),
     rgba(38, 208, 206, 0.85)
     */
-    ), url('/src/assets/backgroundImage.jpg');
+    ), url('https://source.unsplash.com/aOC7TSLb1o8');
 
     /* Center and scale the image nicely */
   background-position: center;

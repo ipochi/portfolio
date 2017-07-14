@@ -3,75 +3,96 @@
     <section class="section">
       <div class="columns">
 
-        <div class="column is-2">
+        <div class="column is-1">
 
         </div>
-        <div class="column is-4">
-          <div class="content has-text-right">
-            <span class="title"><strong>Hi , I am a talented Software developer from Bangalore , India.</strong></span>
+
+        <div class="column is-5 has-text-right">
+          <span class="title"><strong> Hi , I am a talented software developer from Bangalore</strong></span>
+        </div>
+
+        <div class="column is-5">
+          <div id="sentence-wrapper">
+            <h2 class="sentence">
+              <span>You will find me as</span>
+              <div class="words words-1">
+                <span>Versatile</span>
+                <span>Authentic</span>
+                <span>Passionate</span>
+                <span>Dedicated</span>
+                <span>Resourceful</span>
+                <span>Learner</span>
+                <span>Adaptable</span>
+                <span>Ambitious</span>
+                <span>Confident</span>
+              </div>
+            </h2>
           </div>
         </div>
-        <div class="column is-4">
 
-          <div class="content has-text-left">
-            <p><strong> Versatile , Generalist , Learner , Fighter</strong></p>
-            <p><strong> Passionate , Hardworking , Learner , Fighter</strong></p>
-            <p><strong> Learner , Fighter , Learner , Fighter</strong></p>
-          </div>
-
-        </div>
-        <div class="column is-2">
-
+        <div class="column is-1">
         </div>
       </div>
     </section>
-
-    <div class="content is-large has-text-centered">
-      <strong>
-        I've got the chops in all phases of desgin process
-      </strong>
-    </div>
 
     <section class="section">
       <div class="columns">
         <div class="column is-1">
 
         </div>
-        <div class="column  has-text-centered">
+        <div class="column">
 
-            <i class="fa fa-lightbulb-o fa-4x has-text-warning"></i>
-            <div class="content is-large"><strong>Ideas</strong></div>
-            <div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              It has survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem.
+            <div class="has-text-centered"><i class="fa fa-diamond fa-4x has-text-warning"></i></div>
+            <div class="content is-large has-text-centered "><strong>Why Hire Me</strong></div>
+            <div class="content">
+              I have 3 years of Software Developement experience having performed well wherever I have worked ,
+              delivering modules almost always ahead of delivery timelines.
+
+              I say it because I can back that up with the Projects and Awards
+            </div>
+            <div class="content">
+              I am constantly experimenting, learning and expanding my skills and always being technology agnostic at work.
+
+            </div>
+            <div class="content">
+              I am resolute , calm and radiate an aura of reliability in the face
+              of strict timelines and pressure situations.
             </div>
         </div>
-        <div class="column  has-text-centered">
-            <i class="fa fa-magic fa-4x has-text-warning"></i>
-            <div class="content is-large"><strong>Wand</strong></div>
-            <div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              It has survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem.
+        <div class="column">
+            <div class="has-text-centered"><i class="fa fa-star fa-4x has-text-warning"></i></div>
+            <div class="content is-large has-text-centered"><strong>What I bring to the table</strong></div>
+            <div class="content">
+              The right attitude to get the job done in the best way possible whether that's by prior knowledge ,
+              learning from teammates or finding help on stackoverflow.
+
+            </div>
+            <div class="content">
+              I didn't the knew anything about the technologies used when I started my internship ,
+              nor did I knew anything about Flex PLM and Windchill  , nor did I knew anything about Vue JS , Golang , Docker
+              and all other new technologies.
+            </div>
+
+            <div class="content">
+              I learnt about it , completed it and got the praise. That's the best thing about Me.
             </div>
         </div>
-        <div class="column  has-text-centered">
-            <i class="fa fa-code fa-4x has-text-warning"></i>
-            <div class="content is-large"><strong>Code</strong></div>
-            <div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-              It has survived not only five centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s with the release of
-              Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem.
+        <div class="column">
+            <div class="has-text-centered"><i class="fa fa-info fa-4x has-text-warning"></i></div>
+            <div class="content is-large has-text-centered"><strong>All things personal</strong></div>
+            <div class="content">
+              Family is the most important thing in life for me , without which the circle is incomplete.
+            </div>
+            <div class="content">
+              When I am not working , I love to help out in the family chores. I love to cook and I have
+              a couple of Imran's special.
+            </div>
+            <div class="content">
+              I am a Madridista at heart and watch Real Madrid win with exhuberant jubilation.While I am content watching
+              it on TV , I do harbour a burning desire to see them live in Madrid.
+            </div>
+            <div class="content">
+              Rafael Nadal , Raul Gonzalez are two of my biggest inspirations.
             </div>
         </div>
         <div class="column is-1">
@@ -81,9 +102,9 @@
     </section>
 
     <div class="content is-large has-text-centered is-paddingless">
-      <strong>
+      <span class="title"><strong>
         Skillset
-      </strong>
+      </strong></span>
     </div>
 
     <section class="section">
@@ -92,7 +113,7 @@
         </div>
 
         <div class="column  has-text-centered">
-          <span class="subtitle">Getting better day by day </span>
+          <span class="subtitle"><strong>Getting better day by day</strong></span>
           <table class="table is-striped">
             <tbody>
               <tr>
@@ -119,7 +140,7 @@
           </table>
         </div>
         <div class="column has-text-centered">
-          <span class="subtitle"> I'll find a way </span>
+          <span class="subtitle"> <strong>I'll find a way </strong></span>
           <table class="table is-striped">
             <tbody>
               <tr>
@@ -128,21 +149,18 @@
               </tr>
               <tr>
                 <td>Chef</td>
-                <td class="has-text-right">Go (Poison of choice)</td>
+                <td class="has-text-right">SQL / No SQL Databases</td>
               </tr>
               <tr>
                 <td>React JS</td>
                 <td class="has-text-right">Webpack</td>
               </tr>
-              <tr>
-                <td>Linux</td>
-                <td class="has-text-right">SQL / No SQL Databases</td>
-              </tr>
+
             </tbody>
           </table>
         </div>
         <div class="column has-text-centered">
-          <span class="subtitle"> Things I'm poor at </span>
+          <span class="subtitle"><strong> Things I'm poor at </strong></span>
           <table class="table is-striped">
             <tbody>
               <tr>
@@ -152,10 +170,10 @@
                 <td class="has-text-centered">Singing</td>
               </tr>
               <tr>
-                <td class="has-text-centered">Webpack</td>
+                <td class="has-text-centered">Musical Instruments</td>
               </tr>
               <tr>
-                <td class="has-text-centered">SQL / No SQL Databases</td>
+                <td class="has-text-centered"></td>
               </tr>
             </tbody>
           </table>
@@ -184,9 +202,146 @@ export default {
 </script>
 
 <style lang="css">
-
-
-.no-margin {
+#sentence-wrapper{
+    width: 80%;
+    position: relative;
+    padding: 10px;
+}
+.sentence{
     margin: 0;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.sentence span{
+    color: #444;
+    font-size: 200%;
+    font-weight: normal;
+}
+.words{
+    display: inline;
+    text-indent: 10px;
+}
+.words-1 span{
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    color: #6b969d;
+    -webkit-animation: rotateWord 18s linear infinite 0s;
+    -moz-animation: rotateWord 18s linear infinite 0s;
+    -o-animation: rotateWord 18s linear infinite 0s;
+    -ms-animation: rotateWord 18s linear infinite 0s;
+    animation: rotateWord 18s linear infinite 0s;
+}
+
+.words-1 span:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-delay: 2s;
+    color: #6b889d;
+}
+.words-1 span:nth-child(3) {
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -o-animation-delay: 4s;
+    -ms-animation-delay: 4s;
+    animation-delay: 4s;
+    color: #6b739d;
+}
+.words-1 span:nth-child(4) {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+    color: #7a6b9d;
+}
+
+.words-1 span:nth-child(5) {
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+    -o-animation-delay: 8s;
+    -ms-animation-delay: 8s;
+    animation-delay: 8s;
+    color: #8d6b9d;
+}
+.words-1 span:nth-child(6) {
+    -webkit-animation-delay: 10s;
+    -moz-animation-delay: 10s;
+    -o-animation-delay: 10s;
+    -ms-animation-delay: 10s;
+    animation-delay: 10s;
+    color: #9b6b9d;
+}
+.words-1 span:nth-child(7) {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+    color: #6b889d;
+}
+.words-1 span:nth-child(8) {
+    -webkit-animation-delay: 14s;
+    -moz-animation-delay: 14s;
+    -o-animation-delay: 14s;
+    -ms-animation-delay: 14s;
+    animation-delay: 14s;
+    color: #6b739d;
+}
+.words-1 span:nth-child(9) {
+    -webkit-animation-delay: 16s;
+    -moz-animation-delay: 16s;
+    -o-animation-delay: 16s;
+    -ms-animation-delay: 16s;
+    animation-delay: 16s;
+    color: #9b6b9d;
+}
+
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    27% { opacity: 0; -webkit-transform: translateY(-30px); }
+    30% { opacity: 1; -webkit-transform: translateY(0px);}
+    35% { opacity: 1; -webkit-transform: translateY(0px); }
+    38% { opacity: 0; -webkit-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-moz-keyframes rotateWord {
+    0% { opacity: 0; }
+    27% { opacity: 0; -moz-transform: translateY(-30px); }
+    30% { opacity: 1; -moz-transform: translateY(0px);}
+    35% { opacity: 1; -moz-transform: translateY(0px); }
+    38% { opacity: 0; -moz-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-o-keyframes rotateWord {
+    0% { opacity: 0; }
+    27% { opacity: 0; -o-transform: translateY(-30px); }
+    30% { opacity: 1; -o-transform: translateY(0px);}
+    35% { opacity: 1; -o-transform: translateY(0px); }
+    38% { opacity: 0; -o-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    27% { opacity: 0; -ms-transform: translateY(-30px); }
+    30% { opacity: 1; -ms-transform: translateY(0px);}
+    35% { opacity: 1; -ms-transform: translateY(0px); }
+    38% { opacity: 0; -ms-transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    27% { opacity: 0; transform: translateY(-30px); }
+    30% { opacity: 1; transform: translateY(0px);}
+    35% { opacity: 1; transform: translateY(0px); }
+    38% { opacity: 0; transform: translateY(30px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
 }
 </style>
