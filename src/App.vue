@@ -7,8 +7,6 @@
 
 <script>
 
-import NavComponent from './components/AboutMeComponent.vue';
-import MainContent from './components/MainContent.vue';
 import FrontPageComponent from './components/FrontPageComponent.vue';
 
 export default {
@@ -16,7 +14,6 @@ export default {
   name: 'app',
 
   components : {
-    maincontent : MainContent,
     frontpage : FrontPageComponent
   },
 

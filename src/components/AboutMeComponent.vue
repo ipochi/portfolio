@@ -47,16 +47,10 @@
             <div class="content">
               I have 3 years of Software Developement experience having performed well wherever I have worked ,
               delivering modules almost always ahead of delivery timelines.
-
-              I say it because I can back that up with the Projects and Awards
             </div>
             <div class="content">
               I am constantly experimenting, learning and expanding my skills and always being technology agnostic at work.
 
-            </div>
-            <div class="content">
-              I am resolute , calm and radiate an aura of reliability in the face
-              of strict timelines and pressure situations.
             </div>
         </div>
         <div class="column">
@@ -65,35 +59,27 @@
             <div class="content">
               The right attitude to get the job done in the best way possible whether that's by prior knowledge ,
               learning from teammates or finding help on stackoverflow.
-
-            </div>
-            <div class="content">
-              I didn't the knew anything about the technologies used when I started my internship ,
-              nor did I knew anything about Flex PLM and Windchill  , nor did I knew anything about Vue JS , Golang , Docker
-              and all other new technologies.
             </div>
 
             <div class="content">
-              I learnt about it , completed it and got the praise. That's the best thing about Me.
+              I am resolute , calm and radiate an aura of reliability in the face
+              of strict timelines and pressure situations.
             </div>
+
         </div>
         <div class="column">
             <div class="has-text-centered"><i class="fa fa-info fa-4x has-text-warning"></i></div>
             <div class="content is-large has-text-centered"><strong>All things personal</strong></div>
             <div class="content">
               Family is the most important thing in life for me , without which the circle is incomplete.
+              I love to help out in the family chores. I love to cook.
             </div>
+
             <div class="content">
-              When I am not working , I love to help out in the family chores. I love to cook and I have
-              a couple of Imran's special.
+              I am a Madridista at heart and watch Real Madrid win with exhuberant jubilation. Rafael Nadal ,
+              Raul Gonzalez are two of my biggest inspirations.
             </div>
-            <div class="content">
-              I am a Madridista at heart and watch Real Madrid win with exhuberant jubilation.While I am content watching
-              it on TV , I do harbour a burning desire to see them live in Madrid.
-            </div>
-            <div class="content">
-              Rafael Nadal , Raul Gonzalez are two of my biggest inspirations.
-            </div>
+
         </div>
         <div class="column is-1">
 
@@ -172,9 +158,6 @@
               <tr>
                 <td class="has-text-centered">Musical Instruments</td>
               </tr>
-              <tr>
-                <td class="has-text-centered"></td>
-              </tr>
             </tbody>
           </table>
         </div>
@@ -226,122 +209,122 @@ export default {
     opacity: 0;
     overflow: hidden;
     color: #6b969d;
-    -webkit-animation: rotateWord 18s linear infinite 0s;
-    -moz-animation: rotateWord 18s linear infinite 0s;
-    -o-animation: rotateWord 18s linear infinite 0s;
-    -ms-animation: rotateWord 18s linear infinite 0s;
-    animation: rotateWord 18s linear infinite 0s;
+    -webkit-animation: rotateWord 27s linear infinite 0s;
+    -moz-animation: rotateWord 27s linear infinite 0s;
+    -o-animation: rotateWord 27s linear infinite 0s;
+    -ms-animation: rotateWord 27s linear infinite 0s;
+    animation: rotateWord 27s linear infinite 0s;
 }
 
 .words-1 span:nth-child(2) {
-    -webkit-animation-delay: 2s;
-    -moz-animation-delay: 2s;
-    -o-animation-delay: 2s;
-    -ms-animation-delay: 2s;
-    animation-delay: 2s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    animation-delay: 3s;
     color: #6b889d;
 }
 .words-1 span:nth-child(3) {
-    -webkit-animation-delay: 4s;
-    -moz-animation-delay: 4s;
-    -o-animation-delay: 4s;
-    -ms-animation-delay: 4s;
-    animation-delay: 4s;
-    color: #6b739d;
-}
-.words-1 span:nth-child(4) {
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
     -ms-animation-delay: 6s;
     animation-delay: 6s;
+    color: #6b739d;
+}
+.words-1 span:nth-child(4) {
+    -webkit-animation-delay: 9s;
+    -moz-animation-delay: 9s;
+    -o-animation-delay: 9s;
+    -ms-animation-delay: 9s;
+    animation-delay: 9s;
     color: #7a6b9d;
 }
 
 .words-1 span:nth-child(5) {
-    -webkit-animation-delay: 8s;
-    -moz-animation-delay: 8s;
-    -o-animation-delay: 8s;
-    -ms-animation-delay: 8s;
-    animation-delay: 8s;
-    color: #8d6b9d;
-}
-.words-1 span:nth-child(6) {
-    -webkit-animation-delay: 10s;
-    -moz-animation-delay: 10s;
-    -o-animation-delay: 10s;
-    -ms-animation-delay: 10s;
-    animation-delay: 10s;
-    color: #9b6b9d;
-}
-.words-1 span:nth-child(7) {
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
     -ms-animation-delay: 12s;
     animation-delay: 12s;
+    color: #8d6b9d;
+}
+.words-1 span:nth-child(6) {
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -o-animation-delay: 15s;
+    -ms-animation-delay: 15s;
+    animation-delay: 15s;
+    color: #9b6b9d;
+}
+.words-1 span:nth-child(7) {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
     color: #6b889d;
 }
 .words-1 span:nth-child(8) {
-    -webkit-animation-delay: 14s;
-    -moz-animation-delay: 14s;
-    -o-animation-delay: 14s;
-    -ms-animation-delay: 14s;
-    animation-delay: 14s;
+    -webkit-animation-delay: 21s;
+    -moz-animation-delay: 21s;
+    -o-animation-delay: 21s;
+    -ms-animation-delay: 21s;
+    animation-delay: 21s;
     color: #6b739d;
 }
 .words-1 span:nth-child(9) {
-    -webkit-animation-delay: 16s;
-    -moz-animation-delay: 16s;
-    -o-animation-delay: 16s;
-    -ms-animation-delay: 16s;
-    animation-delay: 16s;
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
     color: #9b6b9d;
 }
 
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
-    27% { opacity: 0; -webkit-transform: translateY(-30px); }
-    30% { opacity: 1; -webkit-transform: translateY(0px);}
-    35% { opacity: 1; -webkit-transform: translateY(0px); }
-    38% { opacity: 0; -webkit-transform: translateY(30px); }
+    5% { opacity: 0; -webkit-transform: translateY(-30px); }
+    7% { opacity: 1; -webkit-transform: translateY(0px);}
+    14% { opacity: 1; -webkit-transform: translateY(0px); }
+    16% { opacity: 0; -webkit-transform: translateY(30px); }
     80% { opacity: 0; }
     100% { opacity: 0; }
 }
 @-moz-keyframes rotateWord {
     0% { opacity: 0; }
-    27% { opacity: 0; -moz-transform: translateY(-30px); }
-    30% { opacity: 1; -moz-transform: translateY(0px);}
-    35% { opacity: 1; -moz-transform: translateY(0px); }
-    38% { opacity: 0; -moz-transform: translateY(30px); }
+    5% { opacity: 0; -moz-transform: translateY(-30px); }
+    7% { opacity: 1; -moz-transform: translateY(0px);}
+    14% { opacity: 1; -moz-transform: translateY(0px); }
+    16% { opacity: 0; -moz-transform: translateY(30px); }
     80% { opacity: 0; }
     100% { opacity: 0; }
 }
 @-o-keyframes rotateWord {
     0% { opacity: 0; }
-    27% { opacity: 0; -o-transform: translateY(-30px); }
-    30% { opacity: 1; -o-transform: translateY(0px);}
-    35% { opacity: 1; -o-transform: translateY(0px); }
-    38% { opacity: 0; -o-transform: translateY(30px); }
+    5% { opacity: 0; -o-transform: translateY(-30px); }
+    7% { opacity: 1; -o-transform: translateY(0px);}
+    14% { opacity: 1; -o-transform: translateY(0px); }
+    16% { opacity: 0; -o-transform: translateY(30px); }
     80% { opacity: 0; }
     100% { opacity: 0; }
 }
 @-ms-keyframes rotateWord {
     0% { opacity: 0; }
-    27% { opacity: 0; -ms-transform: translateY(-30px); }
-    30% { opacity: 1; -ms-transform: translateY(0px);}
-    35% { opacity: 1; -ms-transform: translateY(0px); }
-    38% { opacity: 0; -ms-transform: translateY(30px); }
+    5% { opacity: 0; -ms-transform: translateY(-30px); }
+    7% { opacity: 1; -ms-transform: translateY(0px);}
+    14% { opacity: 1; -ms-transform: translateY(0px); }
+    16% { opacity: 0; -ms-transform: translateY(30px); }
     80% { opacity: 0; }
     100% { opacity: 0; }
 }
 @keyframes rotateWord {
-    0% { opacity: 0; }
-    27% { opacity: 0; transform: translateY(-30px); }
-    30% { opacity: 1; transform: translateY(0px);}
-    35% { opacity: 1; transform: translateY(0px); }
-    38% { opacity: 0; transform: translateY(30px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
+  0% { opacity: 0; }
+  5% { opacity: 0; transform: translateY(-30px); }
+  7% { opacity: 1; transform: translateY(0px);}
+  14% { opacity: 1; transform: translateY(0px); }
+  16% { opacity: 0; transform: translateY(30px); }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
 }
 </style>
